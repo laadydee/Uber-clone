@@ -193,8 +193,39 @@ footer h4 a, footer p a{
     color: white;
     text-decoration: none;
 }
+.footer-icon{
+    gap: 5rem;
+    align-items: center;
+}
 .logoimg{
-    width: 2rem;
+    width: 20px;
+}
+.logoimgg{
+    width: 3rem;
+}
+.contact-logo{
+    padding: 80px;
+}
+.logoim{
+    margin: 50px 0 50px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 120px;
+}
+.apple{
+    background-color: white;
+}
+.last-f {
+    list-style-type: none;
+}
+.last-f a{
+    font-size: 13px;
+}
+.foot-p{
+    color: #a9a9a4;
+}
+.foo .hover1 a{
+    color: #a9a9a4;
 }
 /* DRIVE_STYLING */
 .btn11{
@@ -290,6 +321,17 @@ footer h4 a, footer p a{
 }
 .logoimg{
     width: 1rem;
+}
+.contact-logo{
+    padding: 20px;
+}
+.cont-logo{
+    
+    flex-direction: column;
+}
+.icon-loc{
+    flex-direction: column;
+    gap: 0 !important;
 }
 }
 @media (max-width:767px) {
