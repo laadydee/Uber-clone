@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.nav{
+    background-color: black;
+}
+.nav li:hover{
+    border-radius: 15px;
+    background-color: #282828 !important;
+}
+nav .dropdown-menu li a{
+    color: rgb(122, 128, 126);
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.htext, .htext input{
+    outline: none;
+    background-color: #f3f3f3;
+}
+.htext{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    max-width: 75%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.htext input{
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    padding: 70px;
+}
+.all{
+    overflow: hidden;
+}
+
+.square{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+.herogo{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.date-time input{
+    outline: none;
+    border: 0;
+    background-color: #f3f3f3;
+}
+.date-time{
+    margin-top: 20px;
+}
+
+.time, .date{
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    width: 37%;
+    height: 6vh;
+    padding: 10px 2px 0 10px;
+
+}
+.price1{
+    background-color: black;
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.price1:hover{
+    background-color: #282828;
+}
+.price1 a{
+    color: white;
+    text-decoration: none
+}
+.hero-img img{
+    border-radius: 10px;
+}
+/* first-styling */
+.first{
+    padding: 70px;
+    overflow: hidden;
+}
+.aacc a{
+    color: black;
+    text-decoration-color: #988f8f ;
+}
+.aacc a:hover{
+    transition: left o.6s ;
+    left: -100%;
+    text-decoration-color: black;
+}
+.first-text{
+    padding: 80px;
+}
+.first-text h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.first-text p{
+    padding: 20px 0 20px 0;
+}
+.get{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.get:hover{
+    background-color: #282828;
+}
+.get a{
+    color: white;
+    text-decoration: none;
+}
+/* second-styling */
+.second-text h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.second-text p{
+    padding: 20px 0 20px 0;
+}
+.second-text{
+    margin-top: 100px;
+    padding-right: 70px;
+}
+/* third-styling */
+.third{
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.trd{
+    padding: 40px;
+}
+.trd h1{
+    font-weight: 700;
+    padding: 20px;
+}
+.trd h3{
+    font-weight: 700;
+}
+.trdimg{
+    padding: 20px;
+    background-color: white;
+    
+}
+.uber{
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+.trd1{
+    padding: 0 30px 20px 30px;
+}
+/* footer-styling */
+footer{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding: 80px;
+}
+footer li a:hover{
+    border-radius: 15px;
+    color: #bdb4b4 !important;
+}
+footer h4 a, footer p a{
+    color: white;
+    text-decoration: none;
+}
+.logoimg{
+    width: 2rem;
+}
+/* DRIVE_STYLING */
+.btn11{
+    border: 0;
+    outline: none !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn11-drop{
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 70vh;
+}
+.btnn-drop{
+    background-color: white;
+}
+.sec-nav ul li{
+    list-style-type: none;
+}
+.sec-nav li a{
+    text-decoration: none;
+    color: #787676;
+}
+.sec-nav li a:hover{
+    color: black;
+}
+.second-nav{
+    background-color: white;
+}
+.second-nav h3{
+    font-weight: 700;
+}
+.drive-hero{
+    background-color: black;
+}
+/* second drive */
+.drive-second{
+    overflow: hidden;
+}
+.drive-second-img{
+    width: 70%;
+}
+.drive-second h1{
+    font-weight: 700;
+}
+.drive-second h5{
+    font-weight: 600;
+}
+/* background-color: #00000080; */
+@media (max-width:915px) {
+    .hero{
+        padding: 10px;
+    }
+    .hero-img{
+        margin-top: 20px;
+    }
+    /* first-styling */
+    .first{
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .first-text{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    /* second-styling */
+.second-text h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* third-styling */
+
+.third{
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.trd{
+    padding: 0;
+}
+.img-1{
+    display: none;
+}
+.uber{
+
+    align-items: center !important;
+    justify-content: center !important;
+    display: block !important;
+}
+/* footer */
+.footer{
+    padding: 20px;
+}
+.logoimg{
+    width: 1rem;
+}
+}
+@media (max-width:767px) {
+    .hero{
+        padding: 15px;
+    }
+    .hero-img{
+        margin-top: 20px;
+    }
+    .htext{
+        max-width: 95%
+    }
+    .date, .time{
+        width: 46%;
+    }
+    /* first-styling */
+    .first-text h1{
+        font-size: 40px;
+    }
+    .get-sign{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* second-styling */
+.second-text h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.second-text{
+    padding: 0;
+}
+/* third-styling */
+.trd h1{
+    padding: 20px;
+}
+
+
+.trd p{
+    display: none;
+}
+/* footer */
+.footer{
+    padding: 20px;
+}
+/* DRIVE_STYLING */
+.lg-drive{
+    display: none;
+}
+.btnn-drop{
+    display: block !important;
+}
+.drive-hero img{
+    display: none;
+}
+.drive-hero .hero-text{
+    margin: 0 !important;
+}
+}
+
+@media (max-width:1024px) {
+    /* first-styling */
+    .first-text{
+        padding: 10px;
+    }
+}
